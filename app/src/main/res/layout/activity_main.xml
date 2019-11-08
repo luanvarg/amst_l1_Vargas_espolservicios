@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:outlineAmbientShadowColor="@android:color/holo_blue_bright"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/academico_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="irTalLugara"
+        android:text="Sistema Academico" />
+
+    <Button
+        android:id="@+id/sidweb_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="irTalLugar2"
+        android:text="SidWeb" />
+
+    <Button
+        android:id="@+id/vinculos_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="irTalLugar3"
+        android:text="Vinculos a la sociedad" />
+
+    <Button
+        android:id="@+id/bienestar_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="irTalLugar4"
+        android:text="Bienestar Estudiantil" />
+
+</LinearLayout>
